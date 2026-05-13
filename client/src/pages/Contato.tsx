@@ -1,6 +1,6 @@
 /**
  * Contato Page — Obsidian Craft Design
- * Formulário de contato, links sociais, info de disponibilidade para estágio
+ * Formulário de contato, links sociais
  */
 import { useState } from "react";
 import { Mail, Github, Linkedin, Send, MapPin, Clock, CheckCircle2 } from "lucide-react";
@@ -76,7 +76,7 @@ export default function Contato() {
             </h1>
             <p className="text-white/60 text-lg leading-relaxed animate-fade-in-up delay-200"
               style={{ fontFamily: "var(--font-body)" }}>
-              Estou aberto a oportunidades de estágio, colaborações e conversas sobre tecnologia.
+              Estou aberto a colaborações, parcerias e conversas sobre tecnologia.
               Não hesite em entrar em contato!
             </p>
           </div>
@@ -102,12 +102,11 @@ export default function Contato() {
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2"
                   style={{ fontFamily: "var(--font-display)" }}>
-                  Procurando estágio
+                  Aberto a Oportunidades
                 </h3>
                 <p className="text-white/50 text-sm leading-relaxed"
                   style={{ fontFamily: "var(--font-body)" }}>
-                  Estou ativamente buscando uma oportunidade de estágio em desenvolvimento de software.
-                  Disponível para início imediato.
+                  Pronto para novos desafios e projetos interessantes. Vamos criar algo incrível juntos!
                 </p>
                 <div className="flex items-center gap-1.5 mt-4 text-white/40 text-xs"
                   style={{ fontFamily: "var(--font-mono)" }}>
@@ -253,7 +252,6 @@ export default function Contato() {
                         style={{ fontFamily: "var(--font-body)" }}
                       >
                         <option value="" disabled>Selecione um assunto</option>
-                        <option value="estagio">Oportunidade de estágio</option>
                         <option value="projeto">Proposta de projeto</option>
                         <option value="colaboracao">Colaboração</option>
                         <option value="outro">Outro</option>

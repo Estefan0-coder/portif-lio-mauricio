@@ -37,13 +37,7 @@ const timeline = [
     icon: <BookOpen size={16} />,
     color: "#F7971E",
   },
-  {
-    year: "2026",
-    title: "Em busca de estágio",
-    description: "Ativamente procurando uma oportunidade de estágio para aplicar meus conhecimentos e crescer profissionalmente ao lado de uma equipe experiente.",
-    icon: <Briefcase size={16} />,
-    color: "#FFD200",
-  },
+
   {
     year: "2028",
     title: "Conclusão prevista",

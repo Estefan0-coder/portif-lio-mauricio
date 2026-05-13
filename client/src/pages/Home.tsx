@@ -1,6 +1,6 @@
 /**
  * Home Page — Obsidian Craft Design
- * Hero assimétrico, seção de habilidades, projetos em destaque, CTA de estágio
+ * Hero assimétrico, seção de habilidades, projetos em destaque
  * Fontes: Space Grotesk (display), DM Sans (body), Fira Code (mono)
  * Cores: fundo #0D0D0F, acento ciano-azul, âmbar para destaques
  */
@@ -67,7 +67,7 @@ export default function Home() {
               <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#4FACFE]/10 border border-[#4FACFE]/20 text-[#4FACFE] text-xs font-medium"
                 style={{ fontFamily: "var(--font-mono)" }}>
                 <span className="w-1.5 h-1.5 rounded-full bg-[#4FACFE] animate-pulse" />
-                Disponível para estágio
+                Desenvolvedor em Formação
               </span>
             </div>
 
@@ -103,7 +103,7 @@ export default function Home() {
               <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/8 text-white/60 text-sm"
                 style={{ fontFamily: "var(--font-body)" }}>
                 <Briefcase size={14} className="text-[#F7971E]" />
-                Em busca de estágio
+                Pronto para Oportunidades
               </span>
               <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/5 border border-white/8 text-white/60 text-sm"
                 style={{ fontFamily: "var(--font-mono)" }}>
@@ -283,56 +283,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─── INTERNSHIP CTA ─── */}
-      <section className="py-24 bg-[#0D0D0F]">
-        <div className="container">
-          <div className="relative rounded-3xl overflow-hidden border border-white/5 bg-[#141418] p-8 md:p-14">
-            {/* Background glow */}
-            <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full bg-[#4FACFE]/5 blur-3xl pointer-events-none" />
-            <div className="absolute -bottom-20 -left-20 w-64 h-64 rounded-full bg-[#F7971E]/5 blur-3xl pointer-events-none" />
 
-            <div className="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-              <div className="max-w-xl">
-                <div className="flex items-center gap-2 mb-4">
-                  <Briefcase size={16} className="text-[#F7971E]" />
-                  <span className="text-[#F7971E] text-sm font-medium tracking-widest uppercase"
-                    style={{ fontFamily: "var(--font-mono)" }}>
-                    Oportunidade
-                  </span>
-                </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4"
-                  style={{ fontFamily: "var(--font-display)" }}>
-                  Estou em busca de um{" "}
-                  <span className="text-gradient-amber">estágio</span>
-                </h2>
-                <p className="text-white/55 leading-relaxed"
-                  style={{ fontFamily: "var(--font-body)" }}>
-                  Sou estudante dedicado, aprendo rápido e estou pronto para contribuir com sua equipe.
-                  Se você tem uma vaga de estágio em desenvolvimento, adoraria conversar!
-                </p>
-              </div>
-              <div className="flex flex-col gap-3 shrink-0">
-                <Link href="/contato">
-                  <span className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-sm bg-gradient-to-r from-[#F7971E] to-[#FFD200] text-[#0D0D0F] hover:shadow-xl hover:shadow-amber-500/30 transition-all duration-200 w-full"
-                    style={{ fontFamily: "var(--font-display)" }}>
-                    Entrar em contato
-                    <ArrowRight size={16} />
-                  </span>
-                </Link>
-                <a
-                  href="/Mauricio_Estefano.pdf"
-                  download="Mauricio Estefano.pdf"
-                  className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-semibold text-sm bg-white/5 border border-white/10 text-white/70 hover:bg-white/10 hover:text-white transition-all duration-200"
-                  style={{ fontFamily: "var(--font-display)" }}
-                >
-                  <Download size={16} />
-                  Baixar currículo
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
