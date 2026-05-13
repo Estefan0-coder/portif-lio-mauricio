@@ -113,7 +113,7 @@ export default function Sobre() {
                 <div className="absolute -bottom-4 -right-4 px-4 py-3 rounded-xl bg-[#141418] border border-white/10 shadow-xl">
                   <p className="text-xs text-white/50 mb-0.5" style={{ fontFamily: "var(--font-mono)" }}>Status</p>
                   <p className="text-sm font-semibold text-[#4FACFE]" style={{ fontFamily: "var(--font-display)" }}>
-                    Disponível para estágio
+                    Aberto a Oportunidades
                   </p>
                 </div>
               </div>
@@ -138,9 +138,9 @@ export default function Sobre() {
                   Meus projetos no portfólio refletem isso: uma calculadora funcional, um quiz interativo e um app de rifas.
                 </p>
                 <p>
-                  No momento, estou buscando meu primeiro <strong className="text-[#F7971E]">estágio</strong> para colocar em prática
-                  tudo que aprendi e crescer ao lado de profissionais experientes. Sou dedicado, aprendo rápido e sempre busco
-                  fazer as coisas com qualidade. Se você tem uma oportunidade, adoraria conversar!
+                  Estou em busca de <strong className="text-[#F7971E]">oportunidades desafiadoras</strong> onde possa aplicar meus conhecimentos,
+                  contribuir com soluções criativas e crescer profissionalmente. Sou dedicado, aprendo rápido e sempre busco
+                  fazer as coisas com qualidade. Se você tem um projeto interessante ou uma oportunidade, adoraria conversar!
                 </p>
               </div>
 
